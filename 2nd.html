@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Generator</title>
+    <link rel="stylesheet" href="2nd.css">
+</head>
+<body>
+    <center>
+        <div class="header">
+            <p><i>Welcome to the Background Generator</i></p>
+            <p><i>Change the background color with a click!</i></p>
+        </div>
+    </center>
+    
+<div class="container">
+    <h1>Background Generator</h1>
+    <div class="color-picker">
+        <p>click here to set manually</p>
+        <input type="color" id="colorPicker" value="#00ff00">
+    </div>
+    <div class="generate-buttons">
+        <button id="generateManual">Reset Color</button>
+        <br>
+        <button id="generateRandom">Generate Randomly</button>
+    </div>
+    <div class="output">
+        <p>Generated Color: <span id="generatedColor">#00ff00</span></p>
+        <button id="copyButton">Copy to Clipboard</button>
+    </div>
+</div>
+<script src="2nd.js"></script>
+</body>
+</html>
